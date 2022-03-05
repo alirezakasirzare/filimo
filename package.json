@@ -3,11 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
+    "clear": "rm -rf dist",
     "dev": "vite",
-    "build": "rm -rf dist && vite build",
+    "build": "pnpm clear && vite build",
     "preview": "pnpm build && vite preview"
   },
   "devDependencies": {
+    "sass": "^1.49.9",
     "vite": "^2.8.0"
   }
 }
