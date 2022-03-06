@@ -22,4 +22,9 @@
       color: $yellow-600 !important;
     }
   }
+
+  .dropdown-toggle-custom {
+    @include center;
+    @extend .gap-2;
+  }
 }
