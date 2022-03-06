@@ -6,4 +6,8 @@
   .modal-header {
     border-color: rgba($gray-900, 0.5) !important;
   }
+
+  .history-item {
+    @extend .flow-btn;
+  }
 }
