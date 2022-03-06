@@ -1,5 +1,8 @@
 // import bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+// import base of site
+@import "./base";
+
 // import header section
-@import "./sections/header";
+@import "./sections/_header";

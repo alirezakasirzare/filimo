@@ -4,10 +4,10 @@ const rtlcss = require("postcss-rtlcss");
 
 module.exports = {
   plugins: [
-    autoprefixer,
-    purgecss({
-      content: ["./src/**/*.html"],
-    }),
+    // autoprefixer,
+    // purgecss({
+    //   content: ["./src/**/*.html"],
+    // }),
     rtlcss,
   ],
 };
