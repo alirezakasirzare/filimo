@@ -31,4 +31,19 @@
     @include center;
     @extend .gap-2;
   }
+
+  .dropdown-menu {
+    background-color: $dark-color3 !important;
+    @extend .px-0;
+  }
+
+  .dropdown-item {
+    color: $gray-400;
+    font-size: 12px !important;
+    background-color: transparent !important;
+
+    &:hover {
+      color: $yellow-600 !important;
+    }
+  }
 }

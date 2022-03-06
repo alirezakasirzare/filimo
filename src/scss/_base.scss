@@ -1,8 +1,9 @@
 // background
-$body-color: #151515;
-$body-color-light: #1a1919;
+$dark-color1: #151515;
+$dark-color2: #1a1919;
+$dark-color3: #1a1a1a;
 body {
-  background-color: $body-color;
+  background-color: $dark-color1;
   color: $white;
 }
 
