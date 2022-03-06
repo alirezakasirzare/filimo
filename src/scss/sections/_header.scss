@@ -1,7 +1,25 @@
 .main-header {
   background: rgba(0, 0, 0, 0.8);
 
+  nav {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
   .navbar-brand {
-    width: 100px !important;
+    width: 80px !important;
+  }
+
+  .nav-item {
+    padding: 10px !important;
+  }
+
+  .nav-link {
+    font-size: 14px !important;
+    color: $gray-400 !important;
+
+    &:hover {
+      color: $yellow-600 !important;
+    }
   }
 }
