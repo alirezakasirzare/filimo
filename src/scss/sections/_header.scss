@@ -2,8 +2,10 @@
   background: rgba(0, 0, 0, 0.8);
 
   nav {
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
+    @include media-breakpoint-up(lg) {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important;
+    }
   }
 
   .navbar-brand {
@@ -17,6 +19,10 @@
   .nav-link {
     font-size: 14px !important;
     color: $gray-400 !important;
+    max-width: max-content;
+    @include media-breakpoint-up(lg) {
+      max-width: none;
+    }
 
     &:hover {
       color: $yellow-600 !important;
@@ -35,7 +41,11 @@
   .dropdown-menu {
     background-color: $dark-color3 !important;
     @extend .px-1;
-    @extend .fadeInUp;
+    @extend .fadeIn;
+    @include media-breakpoint-up(lg) {
+      -webkit-animation-name: fadeInUp;
+      animation-name: fadeInUp;
+    }
     animation-duration: 0.4s !important;
 
     &.show {
