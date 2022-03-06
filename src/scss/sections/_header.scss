@@ -60,6 +60,7 @@
     @include media-breakpoint-up(lg) {
       -webkit-animation-name: fadeInUp;
       animation-name: fadeInUp;
+      top: 96% !important;
     }
     animation-duration: 0.4s !important;
 
@@ -73,7 +74,10 @@
     font-size: 12px !important;
     background-color: transparent !important;
     @extend .py-2;
-    padding-right: 100px !important;
+    padding-right: 20px !important;
+    @include media-breakpoint-up(sm) {
+      padding-right: 100px !important;
+    }
     &:hover {
       color: $yellow-600 !important;
     }
