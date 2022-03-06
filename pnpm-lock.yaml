@@ -9,10 +9,12 @@ specifiers:
   postcss-rtlcss: ^3.5.2
   sass: ^1.49.9
   vite: ^2.8.0
+  wow.js: ^1.2.2
 
 dependencies:
   '@popperjs/core': 2.11.2
   bootstrap: 5.1.3_@popperjs+core@2.11.2
+  wow.js: 1.2.2
 
 devDependencies:
   '@fullhuman/postcss-purgecss': 4.1.3_postcss@8.4.7
@@ -671,6 +673,11 @@ packages:
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
+
+  /wow.js/1.2.2:
+    resolution: {integrity: sha1-JHUZsKNCMZsaY+Iq6prOwanqV/U=}
+    deprecated: deprecated in favour of aos (Animate On Scroll)
+    dev: false
 
   /wrappy/1.0.2:
     resolution: {integrity: sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=}

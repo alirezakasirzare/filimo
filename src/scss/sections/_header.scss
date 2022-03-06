@@ -35,10 +35,11 @@
   .dropdown-menu {
     background-color: $dark-color3 !important;
     @extend .px-1;
+    @extend .fadeInUp;
+    animation-duration: 0.4s !important;
 
     &.show {
       @extend .d-flex;
-      // @extend .gap-5;
     }
   }
 

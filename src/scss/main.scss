@@ -1,6 +1,9 @@
 // import mixins
 @import "mixins";
 
+// import wow js ( animation module )
+@import "../../node_modules/wow.js/css/libs/animate";
+
 // import bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
