@@ -34,14 +34,20 @@
 
   .dropdown-menu {
     background-color: $dark-color3 !important;
-    @extend .px-0;
+    @extend .px-1;
+
+    &.show {
+      @extend .d-flex;
+      // @extend .gap-5;
+    }
   }
 
   .dropdown-item {
     color: $gray-400;
     font-size: 12px !important;
     background-color: transparent !important;
-
+    @extend .py-2;
+    padding-right: 100px !important;
     &:hover {
       color: $yellow-600 !important;
     }
