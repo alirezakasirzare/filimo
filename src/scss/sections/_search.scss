@@ -10,4 +10,8 @@
   .history-item {
     @extend .flow-btn;
   }
+
+  .history-title {
+    color: $gray-500 !important;
+  }
 }
