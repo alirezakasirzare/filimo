@@ -21,6 +21,10 @@
     &:hover {
       color: $yellow-600 !important;
     }
+
+    &.show {
+      color: $yellow-600 !important;
+    }
   }
 
   .dropdown-toggle-custom {
