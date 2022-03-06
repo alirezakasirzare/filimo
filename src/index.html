@@ -206,7 +206,13 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link nav-link--icon" aria-current="page" href="#">
+                <a
+                  class="nav-link nav-link--icon"
+                  aria-current="page"
+                  href="#search-modal"
+                  data-bs-toggle="modal"
+                  data-bs-target="#search-modal"
+                >
                   <i class="fal fa-search"></i>
                   <span>جستجو</span>
                 </a>
@@ -222,6 +228,28 @@
         </div>
       </nav>
     </header>
+    <!-- start search section -->
+    <!-- Full screen modal -->
+    <div class="search-section">
+      <div class="modal fade" id="search-modal">
+        <div class="modal-dialog modal-fullscreen">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">منوی جستجو</h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end search section -->
     <!-- end header -->
 
     <!-- link the js codes -->
