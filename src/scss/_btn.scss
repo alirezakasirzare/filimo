@@ -1,0 +1,22 @@
+.btn-custom-success {
+  @include button-variant(
+    $success-color,
+    transparent,
+    $white,
+    $hover-color: $white,
+    $active-color: $white
+  );
+  box-shadow: none !important;
+}
+
+.btn-custom-dark {
+  @include button-variant(
+    $color-navbar-btn-dark,
+    transparent,
+    $white,
+    $hover-color: $white,
+    $active-color: $white,
+    $hover-background: $color-navbar-btn-dark-hover
+  );
+  box-shadow: none !important;
+}

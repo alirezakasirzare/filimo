@@ -1,3 +1,6 @@
+// import color
+@import "color";
+
 // import mixins
 @import "mixins";
 
@@ -7,6 +10,8 @@
 // import bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+// import buttons
+@import "./btn";
 // import base of site
 @import "./base";
 
