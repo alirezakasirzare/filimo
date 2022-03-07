@@ -37,3 +37,8 @@
     color: $yellow-500;
   }
 }
+
+.btn--icon {
+  @include center;
+  @extend .gap-2;
+}

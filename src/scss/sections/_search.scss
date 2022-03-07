@@ -27,8 +27,8 @@
   .search-input {
     @extend .form-control;
     @extend .form-control-lg;
-    border-top-left-radius: 0.3rem !important;
-    border-bottom-left-radius: 0.3rem !important;
+    border-top-left-radius: 0.25rem !important;
+    border-bottom-left-radius: 0.25rem !important;
     @include media-breakpoint-up(sm) {
       border-top-left-radius: 0 !important;
       border-bottom-left-radius: 0 !important;
