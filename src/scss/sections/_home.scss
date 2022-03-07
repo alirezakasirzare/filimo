@@ -1,0 +1,8 @@
+.home-section {
+  // image items of carousel
+  .carousel-img {
+    @extend .w-100;
+    @extend .d-block;
+    min-height: 90vh !important;
+  }
+}
