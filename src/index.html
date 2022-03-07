@@ -16,22 +16,23 @@
     <header class="fixed-top main-header">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
+          <!-- logo -->
           <a class="navbar-brand" href="#">
             <img src="./images/logo.png" alt="logo" class="img-fluid" />
           </a>
+          <!-- button trigger the mobile menu -->
           <button
             class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            data-bs-target="#mobile-menu"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse" id="mobile-menu">
+            <!-- menu of header -->
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- movie item -->
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle-custom"
@@ -39,12 +40,11 @@
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false"
                 >
                   <span>فیلم</span>
                   <i class="fal fa-angle-down"></i>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <ul class="dropdown-menu">
                   <div>
                     <li><a class="dropdown-item" href="#">اکشن</a></li>
                     <li><a class="dropdown-item" href="#">عاشقانه</a></li>
@@ -86,6 +86,7 @@
                   </div>
                 </ul>
               </li>
+              <!-- serious item -->
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle-custom"
@@ -93,12 +94,12 @@
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false"
                 >
                   <span>سریال</span>
                   <i class="fal fa-angle-down"></i>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!-- dropdown of serious -->
+                <ul class="dropdown-menu">
                   <div>
                     <li><a class="dropdown-item" href="#">اکشن</a></li>
                     <li><a class="dropdown-item" href="#">عاشقانه</a></li>
@@ -140,9 +141,11 @@
                   </div>
                 </ul>
               </li>
+              <!-- iranian item -->
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">ایرانی</a>
+                <a class="nav-link" href="#">ایرانی</a>
               </li>
+              <!-- colection item -->
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle-custom"
@@ -150,12 +153,12 @@
                   id="navbarDropdown"
                   role="button"
                   data-bs-toggle="dropdown"
-                  aria-expanded="false"
                 >
                   <span>مجموعه ها</span>
                   <i class="fal fa-angle-down"></i>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!-- dropdwon of collection -->
+                <ul class="dropdown-menu">
                   <div>
                     <li>
                       <a class="dropdown-item" href="#">مخصوص ناشنوایان</a>
@@ -191,23 +194,26 @@
                   </div>
                 </ul>
               </li>
+              <!-- line between menu -->
               <div class="vr"></div>
+              <!-- school item -->
               <li class="nav-item">
-                <a class="nav-link nav-link--icon" aria-current="page" href="#">
+                <a class="nav-link nav-link--icon" href="#">
                   <i class="fal fa-school"></i>
                   <span>فیلیمو مدرسه</span>
                 </a>
               </li>
+              <!-- children item -->
               <li class="nav-item">
-                <a class="nav-link nav-link--icon" aria-current="page" href="#">
+                <a class="nav-link nav-link--icon" href="#">
                   <i class="fal fa-child"></i>
                   <span>کودک</span>
                 </a>
               </li>
+              <!-- search item and trigger modal search section -->
               <li class="nav-item">
                 <a
                   class="nav-link nav-link--icon"
-                  aria-current="page"
                   href="#search-modal"
                   data-bs-toggle="modal"
                   data-bs-target="#search-modal"
@@ -217,37 +223,46 @@
                 </a>
               </li>
             </ul>
+            <!-- buttons section of header -->
             <div class="d-flex">
+              <!-- buy item -->
               <a href="#" class="btn btn-custom-success me-1 btn--icon">
                 <i class="fal fa-chevron-square-right"></i>
                 <span>خرید اشتراک فیلیمو</span>
               </a>
+              <!-- login item -->
               <a href="#" class="btn btn-custom-dark"> ورود </a>
             </div>
           </div>
         </div>
       </nav>
     </header>
+    <!-- end header -->
+
     <!-- start search section -->
-    <!-- Full screen modal -->
     <div class="search-section">
+      <!-- full screen modal -->
       <div class="modal fade" id="search-modal">
         <div class="modal-dialog modal-fullscreen">
           <div class="modal-content">
+            <!-- header of modal -->
             <div class="modal-header">
+              <!-- title of modal -->
               <h5 class="modal-title" id="exampleModalLabel">منوی جستجو</h5>
+              <!-- button for close modal -->
               <button
                 type="button"
                 class="btn-close btn-close-white"
                 data-bs-dismiss="modal"
-                aria-label="Close"
               ></button>
             </div>
             <div class="modal-body">
-              <!-- form -->
+              <!-- start form of modal -->
               <form action="#" class="container mt-15">
                 <div class="search-section-size">
+                  <!-- input group -->
                   <div class="input-group">
+                    <!-- button for reset input data -->
                     <button
                       class="btn btn-light border d-none d-sm-block"
                       type="reset"
@@ -255,6 +270,7 @@
                       <i class="fal fa-times"></i>
                     </button>
 
+                    <!-- input search -->
                     <input
                       type="text"
                       class="search-input"
@@ -262,6 +278,7 @@
                       id="input-search"
                     />
 
+                    <!-- submit form button -->
                     <button
                       class="btn btn-custom-success px-sm-4"
                       type="submit"
@@ -269,9 +286,11 @@
                       جستجو
                     </button>
                   </div>
-                  <!-- history -->
+                  <!-- history section of form search -->
                   <div class="mt-5">
+                    <!-- title of history -->
                     <h5 class="history-title">تاریخچه جستجو :</h5>
+                    <!-- list of history items -->
                     <ul class="list-inline mt-3">
                       <li class="list-inline-item">
                         <a href="#" class="history-item">گشت ارشاد</a>
@@ -286,14 +305,13 @@
                   </div>
                 </div>
               </form>
+              <!-- end form of modal -->
             </div>
           </div>
         </div>
       </div>
     </div>
-
     <!-- end search section -->
-    <!-- end header -->
 
     <!-- link the js codes -->
     <script src="./main.js" type="module"></script>
