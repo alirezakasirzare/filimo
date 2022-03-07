@@ -1,5 +1,6 @@
 .main-header {
   background: rgba(0, 0, 0, 0.8);
+  @extend .fixed-top;
 
   // nav header
   nav {
@@ -75,7 +76,7 @@
     @include media-breakpoint-up(lg) {
       -webkit-animation-name: fadeInUp;
       animation-name: fadeInUp;
-      top: 96% !important;
+      top: 95% !important;
     }
     animation-duration: 0.4s !important;
 
