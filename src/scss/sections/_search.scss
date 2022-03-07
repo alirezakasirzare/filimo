@@ -1,29 +1,21 @@
 .search-section {
+  // background
   .modal-content {
     background-color: $black !important;
   }
 
+  // border manager
   .modal-header {
     border-color: rgba($gray-900, 0.5) !important;
   }
 
-  .history-item {
-    @extend .flow-btn;
-  }
-
-  .history-title {
-    color: $gray-500 !important;
-  }
-
+  // size control
   &-size {
     @extend .mx-auto;
     max-width: 800px !important;
   }
 
-  .list-inline-item {
-    @extend .m-1;
-  }
-
+  // input
   .search-input {
     @extend .form-control;
     @extend .form-control-lg;
@@ -33,5 +25,18 @@
       border-top-left-radius: 0 !important;
       border-bottom-left-radius: 0 !important;
     }
+  }
+
+  // history
+  .history-item {
+    @extend .flow-btn;
+  }
+
+  .history-title {
+    color: $gray-500 !important;
+  }
+
+  .list-inline-item {
+    @extend .m-1;
   }
 }

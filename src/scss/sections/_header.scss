@@ -1,21 +1,24 @@
 .main-header {
   background: rgba(0, 0, 0, 0.8);
 
+  // nav header
   nav {
     @include media-breakpoint-up(lg) {
       padding-top: 0 !important;
       padding-bottom: 0 !important;
     }
   }
-
+  // logo
   .navbar-brand {
     width: 80px !important;
   }
 
+  // nav item menu
   .nav-item {
     padding: 8px !important;
   }
 
+  // nav link menu
   .nav-link {
     font-size: 14px !important;
     color: $gray-400 !important;
@@ -24,25 +27,30 @@
       max-width: none;
     }
 
+    // if have icon
     &--icon {
       @include center;
       @extend .gap-2;
     }
 
+    // hover
     &:hover {
       color: $yellow-600 !important;
     }
 
+    // dropdown opened
     &.show {
       color: $yellow-600 !important;
     }
   }
 
+  // manage btn into header
   .btn {
     font-size: 14px !important;
     padding: 10px 15px;
   }
 
+  // line between menu
   .vr {
     background-color: $gray-700 !important;
     width: 100% !important;
@@ -53,11 +61,13 @@
     }
   }
 
+  // dropdown toggle button
   .dropdown-toggle-custom {
     @include center;
     @extend .gap-2;
   }
 
+  // dropdown menu will opened
   .dropdown-menu {
     background-color: $dark-color3 !important;
     @extend .px-1;
@@ -69,11 +79,13 @@
     }
     animation-duration: 0.4s !important;
 
+    // two columns
     &.show {
       @extend .d-flex;
     }
   }
 
+  // item of dropdowns
   .dropdown-item {
     color: $gray-400;
     font-size: 12px !important;
