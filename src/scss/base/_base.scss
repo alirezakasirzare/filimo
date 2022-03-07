@@ -1,24 +1,18 @@
-@import "mixins";
+// import font
 @import "font";
+
+// import color
 @import "color";
-// background
+
+// import mixins
+@import "mixins";
+
+// initial first style
 body {
   background-color: $dark-color1;
   color: $white;
 }
 
-// font
-@import "./font";
-
 * {
   font-family: iran-sans;
-}
-
-// spacing
-.mt-10 {
-  margin-top: $spacer * 6 !important;
-}
-
-.mt-15 {
-  margin-top: $spacer * 9 !important;
 }

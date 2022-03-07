@@ -1,3 +1,4 @@
+// center the items into parent
 @mixin center {
   @extend .d-flex;
   @extend .justify-content-center;
