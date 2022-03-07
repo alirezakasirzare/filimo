@@ -14,4 +14,24 @@
   .history-title {
     color: $gray-500 !important;
   }
+
+  &-size {
+    @extend .mx-auto;
+    max-width: 800px !important;
+  }
+
+  .list-inline-item {
+    @extend .m-1;
+  }
+
+  .search-input {
+    @extend .form-control;
+    @extend .form-control-lg;
+    border-top-left-radius: 0.3rem !important;
+    border-bottom-left-radius: 0.3rem !important;
+    @include media-breakpoint-up(sm) {
+      border-top-left-radius: 0 !important;
+      border-bottom-left-radius: 0 !important;
+    }
+  }
 }
