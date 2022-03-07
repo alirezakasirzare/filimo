@@ -4,3 +4,12 @@
   @extend .justify-content-center;
   @extend .align-items-center;
 }
+
+// wrapper an element into his parent
+@mixin wrapper {
+  @extend .position-absolute;
+  @extend .start-0;
+  @extend .top-0;
+  @extend .w-100;
+  @extend .h-100;
+}

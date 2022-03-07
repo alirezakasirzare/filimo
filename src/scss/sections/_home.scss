@@ -20,20 +20,12 @@
   }
   // filter
   .home-filter {
-    @extend .position-absolute;
-    @extend .start-0;
-    @extend .top-0;
-    @extend .w-100;
-    @extend .h-100;
+    @include wrapper;
     z-index: 1000;
 
     // filter item
     .home-filter-item {
-      @extend .position-absolute;
-      @extend .start-0;
-      @extend .top-0;
-      @extend .w-100;
-      @extend .h-100;
+      @include wrapper;
     }
 
     // filter item 1
@@ -73,5 +65,11 @@
         #151515 100%
       );
     }
+  }
+  // content
+  .home-content {
+    @include center;
+    @include wrapper;
+    z-index: 10000;
   }
 }
