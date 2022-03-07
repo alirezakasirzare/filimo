@@ -1,22 +1,14 @@
-// import color
-@import "color";
-
-// import mixins
-@import "mixins";
-
 // import wow js ( animation module )
 @import "../../node_modules/wow.js/css/libs/animate";
 
 // import bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-// import buttons
-@import "./btn";
 // import base of site
-@import "./base";
+@import "./base/base";
 
-// import header section
-@import "./sections/header";
+// import custom
+@import "./custom/btn";
 
-// import search section
-@import "./sections/search";
+// import sections
+@import "./sections/section";
