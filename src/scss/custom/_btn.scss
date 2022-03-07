@@ -1,3 +1,4 @@
+// btn success
 .btn-custom-success {
   @include button-variant(
     $success-color,
@@ -9,6 +10,7 @@
   box-shadow: none !important;
 }
 
+// btn dark
 .btn-custom-dark {
   @include button-variant(
     $color-navbar-btn-dark,
@@ -21,6 +23,7 @@
   box-shadow: none !important;
 }
 
+// flow btn
 .flow-btn {
   text-decoration: none !important;
   @extend .badge;
@@ -38,6 +41,7 @@
   }
 }
 
+// btn have icon
 .btn--icon {
   @include center;
   @extend .gap-2;
