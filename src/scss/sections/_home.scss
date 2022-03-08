@@ -19,17 +19,24 @@
     min-width: 1000px !important;
   }
   // filter
+  .home-filter-colored {
+    @include wrapper;
+    background: radial-gradient(
+      97.71% 268.05% at 97.71% 81.01%,
+      #fdc13b 0,
+      #fd5b00 39.6%,
+      #090c4a 100%
+    );
+    z-index: 10;
+    mix-blend-mode: color;
+  }
   .home-filter {
     @include wrapper;
     z-index: 1000;
 
-    // filter item
-    .home-filter-item {
-      @include wrapper;
-    }
-
     // filter item 1
     &-1 {
+      @include wrapper;
       background: linear-gradient(
         186.97deg,
         rgba(21, 21, 21, 0) 5.45%,
@@ -39,17 +46,7 @@
 
     // filter item 2
     &-2 {
-      background: radial-gradient(
-        97.71% 268.05% at 97.71% 81.01%,
-        #fdc13b 0,
-        #fd5b00 39.6%,
-        #090c4a 100%
-      );
-      opacity: 0.6;
-    }
-
-    // filter item 3
-    &-3 {
+      @include wrapper;
       background: radial-gradient(
         54.91% 54.91% at 50% 45.09%,
         rgba(21, 21, 21, 0) 0,
@@ -57,8 +54,9 @@
       );
     }
 
-    // filter item 4
-    &-4 {
+    // filter item 3
+    &-3 {
+      @include wrapper;
       background: radial-gradient(
         130% 62% at 41% 40%,
         rgba(0, 0, 0, 0) 0,
