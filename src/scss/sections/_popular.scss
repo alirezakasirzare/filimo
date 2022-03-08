@@ -1,10 +1,11 @@
 .popular-section {
   .popular-item {
     @extend .d-block;
-    filter: grayscale(0.4);
-    transition: 0.4s ease filter;
+    opacity: 0.7;
+    transition: 0.4s ease opacity;
     &:hover {
-      filter: grayscale(0);
+      // filter: grayscale(0);
+      opacity: 1;
     }
   }
 }
