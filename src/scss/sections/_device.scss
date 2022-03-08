@@ -2,22 +2,27 @@
   @extend .py-5;
   background-color: $dark-color2 !important;
 
+  // device section title
+  .device-title {
+    @extend .text-center;
+    @extend .mb-4;
+    font-size: 24px !important;
+  }
+
+  // device item title
+  .device-item-title {
+    @extend .mb-4;
+    font-size: 18px !important;
+  }
+
+  // device item info
   .device-info {
     @extend .text-muted;
     @extend .mb-2;
     font-size: 12px;
   }
 
-  .device-item-title {
-    @extend .mb-4;
-    font-size: 18px !important;
-  }
-
-  .device-title {
-    @extend .text-center;
-    @extend .mb-4;
-    font-size: 24px !important;
-  }
+  // device television support title
   .device-tv-title {
     @extend .my-4;
     @extend .text-center;
