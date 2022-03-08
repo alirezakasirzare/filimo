@@ -74,6 +74,7 @@
     z-index: 1000;
     align-items: end !important;
 
+    // paragraph
     &-body {
       @extend .mb-5;
       font-size: 14px !important;
@@ -82,6 +83,7 @@
       }
     }
 
+    // text after button
     &-footer {
       @extend .d-block;
       font-size: 13px !important;
