@@ -9,7 +9,7 @@ var slider = tns({
   nav: false,
   loop: false,
   gutter: 10,
-  controlsContainer: ".free-controls",
+  controlsContainer: "#free-controls",
   responsive: {
     572: {
       items: 3,

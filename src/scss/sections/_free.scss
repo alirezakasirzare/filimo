@@ -2,6 +2,45 @@
   .free-slider-container {
     /*rtl:ignore*/
     direction: ltr;
+    position: relative;
+  }
+
+  .controls {
+    @include wrapper;
+
+    .controls-prev,
+    .controls-next {
+      @extend .position-absolute;
+      @extend .top-50;
+      transform: translateY(-50%);
+      z-index: 10000000;
+      list-style: none;
+
+      &-btn {
+        width: 40px;
+        height: 40px;
+        @extend .rounded-circle;
+        @include center;
+        @extend .bg-opacity-75;
+        @extend .bg-dark;
+        @extend .fs-4;
+        @extend .text-secondary;
+        @extend .btn;
+
+        &:hover {
+          @extend .text-light;
+        }
+        // @extend .btn-dark;
+      }
+    }
+    .controls-prev {
+      /*rtl:ignore*/
+      left: 3px !important;
+    }
+    .controls-next {
+      /*rtl:ignore*/
+      right: 3px !important;
+    }
   }
 
   .free-link {
