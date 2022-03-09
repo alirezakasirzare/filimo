@@ -53,3 +53,30 @@ tns({
     },
   },
 });
+
+// create children secrion silder
+tns({
+  container: "#comment-section-slider",
+  // controlsContainer: "#children-controls",
+  controls: false,
+  items: 3,
+  slideBy: "1",
+  mouseDrag: true,
+  nav: false,
+  loop: false,
+  gutter: 10,
+  responsive: {
+    // 572: {
+    //   items: 3,
+    // },
+    // 768: {
+    //   items: 4,
+    // },
+    // 992: {
+    //   items: 5,
+    // },
+    // 1200: {
+    //   items: 6,
+    // },
+  },
+});
