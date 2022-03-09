@@ -8,12 +8,14 @@ specifiers:
   postcss: ^8.4.7
   postcss-rtlcss: ^3.5.2
   sass: ^1.49.9
+  tiny-slider: ^2.9.4
   vite: ^2.8.0
   wow.js: ^1.2.2
 
 dependencies:
   '@popperjs/core': 2.11.2
   bootstrap: 5.1.3_@popperjs+core@2.11.2
+  tiny-slider: 2.9.4
   wow.js: 1.2.2
 
 devDependencies:
@@ -637,6 +639,10 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
     dev: true
+
+  /tiny-slider/2.9.4:
+    resolution: {integrity: sha512-LAs2kldWcY+BqCKw4kxd4CMx2RhWrHyEePEsymlOIISTlOVkjfK40sSD7ay73eKXBLg/UkluAZpcfCstimHXew==}
+    dev: false
 
   /to-regex-range/5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}

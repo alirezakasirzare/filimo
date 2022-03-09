@@ -15,3 +15,6 @@ import "bootstrap/js/dist/carousel";
 
 // history items bootstrap
 import "./scripts/history-search";
+
+// import silders manage
+import "./scripts/silders";
