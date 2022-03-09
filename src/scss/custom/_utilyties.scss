@@ -24,3 +24,19 @@
 .dir-body {
   direction: ltr !important;
 }
+
+.always-ltr {
+  /*rtl:ignore*/
+  direction: ltr !important;
+}
+
+// fade animation when hover
+.fade-hover {
+  @extend .d-block;
+  transition: 0.4s ease opacity;
+  opacity: 0.7;
+
+  &:hover {
+    opacity: 1 !important;
+  }
+}
