@@ -1,0 +1,11 @@
+.children-section {
+  .children-title-container {
+    @extend .d-flex;
+    @extend .flex-wrap;
+    @extend .justify-content-between;
+    @extend .align-items-center;
+    @include media-breakpoint-up(sm) {
+      flex-wrap: nowrap !important;
+    }
+  }
+}
