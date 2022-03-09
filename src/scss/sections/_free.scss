@@ -3,4 +3,14 @@
     /*rtl:ignore*/
     direction: ltr;
   }
+
+  .free-link {
+    @extend .d-block;
+    transition: 0.4s ease opacity;
+    opacity: 0.7;
+
+    &:hover {
+      opacity: 1 !important;
+    }
+  }
 }

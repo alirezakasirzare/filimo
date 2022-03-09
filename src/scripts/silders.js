@@ -9,4 +9,5 @@ var slider = tns({
   controls: false,
   nav: false,
   loop: false,
+  gutter: 10,
 });
