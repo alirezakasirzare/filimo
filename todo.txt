@@ -1,0 +1,5 @@
+fix info free slider direction
+
+add fade hove class to populat movies
+
+change children images and info texts 
