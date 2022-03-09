@@ -1,0 +1,11 @@
+.comment-section {
+  .comment-content {
+    @extend .card-text;
+    @extend .text-secondary;
+    @extend .fs-tiny;
+    @extend .overflow-auto;
+    @extend .px-1;
+    height: 150px;
+    text-align: justify;
+  }
+}

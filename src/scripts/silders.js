@@ -28,7 +28,7 @@ tns({
   },
 });
 
-// create children secrion silder
+// create children section silder
 tns({
   container: "#children-section-slider",
   controlsContainer: "#children-controls",
@@ -54,11 +54,10 @@ tns({
   },
 });
 
-// create children secrion silder
+// create comments section silder
 tns({
   container: "#comment-section-slider",
-  // controlsContainer: "#children-controls",
-  controls: false,
+  controlsContainer: "#comment-controls",
   items: 3,
   slideBy: "1",
   mouseDrag: true,
