@@ -1,9 +1,11 @@
 .main-footer {
+  // footer secton conteainer
   @include bg-image("../../images/bg-footer.png");
   @extend .mt-5;
   @extend .py-10;
   @extend .text-center;
 
+  // logo
   .footer-logo {
     max-width: 210px;
   }
