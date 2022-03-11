@@ -1,9 +1,7 @@
 .feature-section {
   @extend .py-5;
   @extend .mt-15;
-  background-image: url("../../images/bg-feature.png");
-  background-size: cover;
-  background-position: center;
+  @include bg-image("../../images/bg-feature.png");
 
   .feature-list {
     background-color: rgba(0, 0, 0, 0.4);

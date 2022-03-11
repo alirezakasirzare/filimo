@@ -13,3 +13,10 @@
   @extend .w-100;
   @extend .h-100;
 }
+
+// background
+@mixin bg-image($url) {
+  background-image: url($url);
+  background-size: cover;
+  background-position: center;
+}
