@@ -6,8 +6,4 @@ change children images and info texts
 
 edit z index of prev and next control
 
-refactor comment section
-
-refactor feature section
-
 lazy loding images
