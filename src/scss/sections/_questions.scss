@@ -5,6 +5,10 @@
       @extend .mb-2;
     }
 
+    &-body {
+      @extend .text-justify;
+    }
+
     &-button {
       background-color: $dark-color2 !important;
       @extend .text-light;
