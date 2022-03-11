@@ -1,3 +1,0 @@
-fix info free slider direction
-
-change children images and info texts 
