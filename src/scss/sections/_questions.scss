@@ -1,0 +1,26 @@
+.questions-section {
+  .accordion {
+    &-item {
+      background-color: $dark-color2 !important;
+      @extend .mb-2;
+    }
+
+    &-button {
+      background-color: $dark-color2 !important;
+      @extend .text-light;
+      box-shadow: none !important;
+      &::after {
+        filter: invert(1) grayscale(100%) brightness(35%);
+      }
+      &:hover::after {
+        filter: invert(1) grayscale(100%) brightness(55%);
+      }
+      &[aria-expanded="true"] {
+        @extend .text-success;
+      }
+      &:hover {
+        @extend .text-success;
+      }
+    }
+  }
+}

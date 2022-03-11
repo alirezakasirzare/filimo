@@ -18,3 +18,6 @@ import "./scripts/history-search";
 
 // import silders manage
 import "./scripts/silders";
+
+// import accordion bootstrrap
+// import "bootstrap/js/dist/";
