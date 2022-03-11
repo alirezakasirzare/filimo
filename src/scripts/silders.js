@@ -1,6 +1,6 @@
 // import tiny silder module
 import { tns } from "tiny-slider";
-import "tiny-slider/dist/tiny-slider.css";
+// import "tiny-slider/dist/tiny-slider.css";
 
 // create free secrion silder
 tns({

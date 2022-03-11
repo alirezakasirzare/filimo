@@ -10,7 +10,14 @@ module.exports = {
   plugins: [
     autoprefixer,
     purgecss({
-      content: ["./src/**/*.html"],
+      content: [
+        "./src/**/*.html",
+        "./node_modules/bootstrap/js/dist/dropdown.js",
+        "./node_modules/bootstrap/js/dist/collapse.js",
+        "./node_modules/bootstrap/js/dist/modal.js",
+        "./node_modules/bootstrap/js/dist/carousel.js",
+        "./src/scripts/history-search.js",
+      ],
     }),
     rtlcss,
   ],
