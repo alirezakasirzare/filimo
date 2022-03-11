@@ -1,23 +1,11 @@
 // add styles
 import "./scss/main.scss";
 
-// dropdown bootstrap
-import "bootstrap/js/dist/dropdown";
+// add bootstrap scripts
+import "./scripts/bootstrap";
 
-// collapse bootstrap
-import "bootstrap/js/dist/collapse";
-
-// modal bootstrap
-import "bootstrap/js/dist/modal";
-
-// carousel bootstrap
-import "bootstrap/js/dist/carousel";
-
-// history items bootstrap
+// history items manage
 import "./scripts/history-search";
 
 // import silders manage
 import "./scripts/silders";
-
-// import accordion bootstrrap
-// import "bootstrap/js/dist/";
