@@ -1,0 +1,6 @@
+.feature-section {
+  @extend .py-5;
+  @extend .mt-15;
+  background-image: url("../../images/bg-feature.png");
+  background-size: cover;
+}
