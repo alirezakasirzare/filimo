@@ -1,24 +1,25 @@
 .questions-section {
+  // acardion
   .accordion {
+    // acardion item
     &-item {
       background-color: $dark-color2 !important;
       @extend .mb-2;
     }
-
+    // body
     &-body {
       @extend .text-justify;
     }
-
+    // acardion title button
     &-button {
       background-color: $dark-color2 !important;
       @extend .text-light;
       box-shadow: none !important;
+      // acardion arrow
       &::after {
         filter: invert(1) grayscale(100%) brightness(35%);
       }
-      &:hover::after {
-        filter: invert(1) grayscale(100%) brightness(55%);
-      }
+      // manage acardion arrow item
       &[aria-expanded="true"] {
         @extend .text-success;
       }
