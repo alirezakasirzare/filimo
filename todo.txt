@@ -8,6 +8,6 @@ edit z index of prev and next control
 
 refactor comment section
 
-refactor footer section
+refactor feature section
 
 lazy loding images

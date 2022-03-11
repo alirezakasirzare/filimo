@@ -1,11 +1,14 @@
 .feature-section {
+  // feature
   @extend .py-5;
   @extend .mt-15;
   @include bg-image("../../images/bg-feature.png");
 
+  // feature list part
   .feature-list {
     background-color: rgba(0, 0, 0, 0.4);
     @extend .p-3;
+    // item of list
     .list-group-item {
       @extend .border-0;
       @extend .rounded-pill;
@@ -13,6 +16,7 @@
       @extend .align-items-center;
       color: $gray-500;
       background-color: transparent;
+      // background manage of first item
       &:first-child {
         background: linear-gradient(
           270deg,
@@ -23,6 +27,7 @@
     }
   }
 
+  // icon
   .feature-icon {
     background-color: $teal-600;
     @extend .text-dark;
