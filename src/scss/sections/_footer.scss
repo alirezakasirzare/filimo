@@ -2,4 +2,9 @@
   @include bg-image("../../images/bg-footer.png");
   @extend .mt-5;
   @extend .py-10;
+  @extend .text-center;
+
+  .footer-logo {
+    max-width: 210px;
+  }
 }

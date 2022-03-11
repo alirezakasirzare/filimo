@@ -10,3 +10,7 @@ refactor comment section
 
 
 refactor question section
+
+refactor footer section
+
+lazy loding images
