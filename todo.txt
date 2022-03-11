@@ -1,5 +1,3 @@
 fix info free slider direction
 
 change children images and info texts 
-
-edit z index of prev and next control

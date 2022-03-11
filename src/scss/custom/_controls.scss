@@ -8,7 +8,7 @@
     @extend .position-absolute;
     @extend .top-50;
     transform: translateY(-50%);
-    z-index: 10000000;
+    z-index: 10;
     list-style: none;
 
     &-btn {
