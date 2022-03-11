@@ -3,4 +3,36 @@
   @extend .mt-15;
   background-image: url("../../images/bg-feature.png");
   background-size: cover;
+
+  .feature-list {
+    background-color: rgba(0, 0, 0, 0.4);
+    @extend .p-3;
+    .list-group-item {
+      @extend .border-0;
+      @extend .rounded-pill;
+      @extend .d-flex;
+      @extend .align-items-center;
+      color: $gray-500;
+      background-color: transparent;
+      &:first-child {
+        background: linear-gradient(
+          270deg,
+          rgba(2, 192, 87, 0.14) 0,
+          rgba(9, 217, 102, 0.0462) 100%
+        );
+      }
+    }
+  }
+
+  .feature-icon {
+    background-color: $teal-600;
+    @extend .text-dark;
+    @extend .me-1;
+    @extend .rounded-circle;
+    width: 20px;
+    min-width: 20px;
+    height: 20px;
+    @include center;
+    font-size: 12px;
+  }
 }
