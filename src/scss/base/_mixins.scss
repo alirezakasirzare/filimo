@@ -15,8 +15,7 @@
 }
 
 // background
-@mixin bg-image($url) {
-  background-image: url($url);
+@mixin bg-image {
   background-size: cover;
   background-position: center;
 }

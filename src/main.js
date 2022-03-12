@@ -9,3 +9,6 @@ import "./scripts/history-search";
 
 // import silders manage
 import "./scripts/silders";
+
+// import images handeler
+import "./scripts/media";

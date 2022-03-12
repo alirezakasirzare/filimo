@@ -2,7 +2,7 @@
   // feature
   @extend .py-5;
   @extend .mt-15;
-  @include bg-image("../../images/bg-feature.png");
+  @include bg-image;
 
   // feature list part
   .feature-list {
